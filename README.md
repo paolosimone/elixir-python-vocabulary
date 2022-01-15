@@ -5,6 +5,7 @@ style: |
   section {
       font-size: 1.75rem
   }
+slides: https://paolosimone.github.io/elixir-python-vocabulary
 ---
 
 # Elixir-Python Vocabulary
@@ -232,7 +233,7 @@ Ref: https://hexdocs.pm/elixir/Kernel.SpecialForms.html#cond/1
 ```python
 (a, b, _) = (1, 2, 3) # (1) 
 
-[a, b] = [1, 2]; if b != 2: raise Exception("Match error!") # (2)
+[a, temp] = [1, 2]; if temp != b: raise Exception("Match error!") # (2)
 
 head, tail = lst[0], lst[1:]  # (3)
 
